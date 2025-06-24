@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ErpSolution.Application\ErpSolution.Application.csproj" />
+    <ProjectReference Include="..\ErpSolution.Domain\ErpSolution.Domain.csproj" />
+    <ProjectReference Include="..\ErpSolution.Infrastructure\ErpSolution.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
